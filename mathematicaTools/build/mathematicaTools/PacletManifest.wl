@@ -1,0 +1,31 @@
+<|
+    "Files"
+    ->
+    {
+        <|
+            "File"
+            ->
+            File[
+                "Kernel/mathematicaTools.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "c315a2b24686235d142e09a91674a7a396bead978802b1d909839c005746c6f9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel/pdfTools.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "35f7697b662044ce9ede4d7168c121e590899338b24bb274e2bfe027934c2ad1"
+                
+        |>
+    }
+|>
