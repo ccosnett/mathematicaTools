@@ -6,7 +6,7 @@ Get["mathematicaTools`"] // Quiet;
 
 *)
 
-Print["here"];
+Print["loaded paclet: mathematicaTools"];
 (* ::Package:: *)
 
 (* :Title: mathematicaTools *)
