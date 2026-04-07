@@ -14,7 +14,7 @@ Get["mathematicaTools`"];
 ## Try the new clipboard helper
 
 ```wl
-AjahnSumedho
+ajahnSumedho
 ```
 
 This copies the predefined support message to the system clipboard and prints

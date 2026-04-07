@@ -25,23 +25,15 @@ copyCell[str_] := (
 copy[str_, _] := CopyToClipboard[str];
 copy[str_] := CopyToClipboard[str];
 
-AjahnSumedho := copyCell["Hello,
+ajahnSumedho := copyCell["Rephrase the whole email.
 
-Thank you for contacting Wolfram Technical Support.
+Do not be verbose or repetitive.
 
-If helpful, I would be glad to arrange a Zoom meeting.
+Be simple, in the manner of the Buddhist monk Ajahn Sumedho.
 
-You can choose a suitable time here:
+Be professional and honourable.
 
-Link: https://calendly.com/conor_cosnett_/30min
-
-
-Kind regards,
-
-Conor Cosnett
-Wolfram Technical Support
-Wolfram Research Inc.
-https://support.wolfram.com/
+Do not sound like a New Age hippie.
 "];
 
 

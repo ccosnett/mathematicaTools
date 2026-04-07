@@ -22,7 +22,7 @@ Unprotect["mathematicaTools`*"]; ClearAll["mathematicaTools`*"]; ClearAll["mathe
 (* pdfTools` *)
 exportCurrentNotebookToPDF
 end
-AjahnSumedho
+ajahnSumedho
 
 
 
