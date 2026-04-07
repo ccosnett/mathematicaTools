@@ -25,18 +25,18 @@ copyCell[str_] := (
 copy[str_, _] := CopyToClipboard[str];
 copy[str_] := CopyToClipboard[str];
 
-AdjanSumedo := copyCell["Hello,
+AjahnSumedho := copyCell["Hello,
 
 Thank you for contacting Wolfram Technical Support.
 
-In order to help you, I propose we arrange a Zoom meeting at your earliest convenience.
+If helpful, I would be glad to arrange a Zoom meeting.
 
-For your ease, I have attached my scheduling link below, which displays my availability. Please feel free to choose a suitable timeslot that works best for you.
+You can choose a suitable time here:
 
 Link: https://calendly.com/conor_cosnett_/30min
 
 
-Many thanks,
+Kind regards,
 
 Conor Cosnett
 Wolfram Technical Support
