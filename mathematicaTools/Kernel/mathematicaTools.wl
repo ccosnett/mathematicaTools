@@ -22,10 +22,12 @@ Unprotect["mathematicaTools`*"]; ClearAll["mathematicaTools`*"]; ClearAll["mathe
 (* pdfTools` *)
 exportCurrentNotebookToPDF
 end
+AdjanSumedo
 
 
 
 
 Get["mathematicaTools`pdfTools`"]
+Get["mathematicaTools`clipboardTools`"]
 
 EndPackage[];

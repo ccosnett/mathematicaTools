@@ -6,12 +6,25 @@
             "File"
             ->
             File[
+                "Kernel/clipboardTools.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "f345e728845fc4b568c06203bea94e4a841c992b202810bd40c48b41c96bbe27"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel/mathematicaTools.wl"
             ]
             ,
             "Hash"
             ->
-            "c315a2b24686235d142e09a91674a7a396bead978802b1d909839c005746c6f9"
+            "d86a416a50f241392ebdef4596071259755701c43fc2230f6d7a2f6519ab4522"
                 
         |>
         ,
