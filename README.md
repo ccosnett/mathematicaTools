@@ -11,10 +11,38 @@ PacletDirectoryLoad["/Users/johncosnett/PycharmProjects/mathematicaTools"];
 Get["mathematicaTools`"];
 ```
 
+## Reinstall the paclet
+
+These are the Wolfram Language commands used in
+`scripts/paclet_generation_procedure.nb`.
+
+They assume you are running from that notebook, so `NotebookDirectory[]`
+resolves inside `scripts/` and the parent directory is the repo root.
+
+```wl
+name = "mathematicaTools";
+
+PacletUninstall[name];
+
+DeleteDirectory[
+    ParentDirectory[NotebookDirectory[]] <> "/" <> name <> "/build/",
+    DeleteContents -> True
+];
+
+directory2 = ParentDirectory[NotebookDirectory[]] <> "/" <> name;
+PacletBuild[directory2];
+
+dir = ParentDirectory[NotebookDirectory[]] <> "/" <> name;
+PacletInstall[
+    dir <> "/build/" <> name <> "-0.0.1.paclet",
+    ForceVersionInstall -> True
+];
+```
+
 ## Try the new clipboard helper
 
 ```wl
-ajahnSumedho
+AjahnSumedho
 ```
 
 This copies the predefined support message to the system clipboard and prints
