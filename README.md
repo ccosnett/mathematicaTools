@@ -13,28 +13,27 @@ Get["mathematicaTools`"];
 
 ## Reinstall the paclet
 
-These are the Wolfram Language commands used in
-`scripts/paclet_generation_procedure.nb`.
-
-They assume you are running from that notebook, so `NotebookDirectory[]`
-resolves inside `scripts/` and the parent directory is the repo root.
+Use these absolute paths if you want the reinstall command to work from any
+notebook on this machine.
 
 ```wl
 name = "mathematicaTools";
+repoDir = "/Users/johncosnett/PycharmProjects/mathematicaTools/mathematicaTools";
+buildDir = repoDir <> "/build";
+pacletFile = buildDir <> "/" <> name <> "-0.0.1.paclet";
+
+Get["PacletTools`"];
 
 PacletUninstall[name];
 
 DeleteDirectory[
-    ParentDirectory[NotebookDirectory[]] <> "/" <> name <> "/build/",
+    buildDir,
     DeleteContents -> True
 ];
 
-directory2 = ParentDirectory[NotebookDirectory[]] <> "/" <> name;
-PacletBuild[directory2];
-
-dir = ParentDirectory[NotebookDirectory[]] <> "/" <> name;
+PacletBuild[repoDir];
 PacletInstall[
-    dir <> "/build/" <> name <> "-0.0.1.paclet",
+    pacletFile,
     ForceVersionInstall -> True
 ];
 ```
