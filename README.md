@@ -19,6 +19,7 @@ notebook on this machine.
 ```wl
 name = "mathematicaTools";
 repoDir = "/Users/johncosnett/PycharmProjects/mathematicaTools/mathematicaTools";
+(* repoDir = "/path/to/your/mathematicaTools/mathematicaTools"; *)
 buildDir = repoDir <> "/build";
 pacletFile = buildDir <> "/" <> name <> "-0.0.1.paclet";
 
