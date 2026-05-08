@@ -14,7 +14,7 @@ Get["mathematicaTools`"];
 ## Reinstall the paclet
 
 Use these absolute paths if you want the reinstall command to work from any
-notebook on this machine.
+notebook on your machine.
 
 ```wl
 name = "mathematicaTools";
